@@ -21,19 +21,3 @@ function tabelaDeMultiplicacao(n){
 tabelaDeMultiplicacao(10)
 
 
-function tabelaDeMultiplicacao(n) {
-  var arr = [];
-  var rows = [];
-
-  for(let i = 0; i <= n; i++) {
-      rows[i] = []; 
-      for(let j = 0; j <= n; j++) {
-          rows[i].push(i*j);
-      }
-      arr.push(rows[i]);
-  }
-
-  console.table(arr)
-}
-
-tabelaDeMultiplicacao(10)
